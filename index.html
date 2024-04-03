@@ -1,27 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>final proposal</title>
+    <title>Accelerating the Cosmos: Real-Time Visualization of Black Hole Phenomena</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
         }
-        .content {
-            text-align: center;
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .team {
+            font-style: italic;
+        }
+
+        .goal {
+            font-weight: bold;
         }
     </style>
 </head>
+
 <body>
-    <div class="content">
-        <h1>CS184 Final Project Proposal</h1>
-        <p>Xiaowen Liu, Alina Sheng, David Long, Leo Yuan</p>
-        <h2>Black hole visualization</h2>
-        <p></p>
-    </div>
+
+    <header>
+        <h1 align="middle">Accelerating the Cosmos: Real-Time Visualization of Black Hole Phenomena</h1>
+    </header>
+    <p class="team" align="middle">Team: Xiaowen Liu, Alina Sheng, David Long, Leo Yuan</p>
+    <section>
+        <h2 align="middle">Summary</h2>
+        <p>Our project aims to develop a real-time, GPU-based visualization tool for simulating the gravitational
+            effects
+            of black holes on their surrounding environments. Aimed at both educational and research applications, this
+            tool
+            will leverage advanced graphics programming techniques to simulate complex gravitational phenomena such as
+            light
+            bending, redshift, gravitational lensing, and the warping of spacetime around black holes.</p>
+
+    </section>
+
+    <section>
+        <h2 align="middle">Problem Description</h2>
+        <p>The visualization of black holes and their effects on the cosmos poses a significant challenge due to the
+            intense
+            computational resources required to accurately simulate the bending of light and spacetime. Current tools
+            are
+            either overly simplistic, lacking in scientific accuracy, or require significant computational time,
+            limiting
+            their utility for real-time applications and interactive learning. This project aims to bridge this gap by
+            utilizing the power of modern GPU computing to bring these celestial phenomena to life in real-time,
+            offering a
+            useful tool for both scientific research and public science education.</p>
+    </section>
+
+    <section>
+        <h2 align="middle">Goals and Deliverables</h2>
+        <h3 class="goal">Baseline Goals:</h3>
+        <p>We plan to deliver a series of images and videos simulating the following effects:</p>
+        <ul>
+            <li><b>Gravitational Lensing: </b>Images showcasing how light from distant stars is bent around the black hole,
+                creating
+                arcs and rings. This effect will be highlighted in both static images and as part of the interactive
+                demo,
+                allowing users to observe changes in lensing as they adjust the mass and spin of the black hole.</li>
+            <li><b>Accretion Disk Illumination: </b>Simulations that depict the swirling gas and dust in the accretion disk
+                around the
+                black hole, heated to extreme temperatures and emitting high-energy radiation. The visualization will
+                demonstrate variations in disk appearance based on the black hole’s spin and the observer’s angle.</li>
+            <li><b>Event Horizon and Photon Sphere: </b>Visualizations focusing on the event horizon's silhouette against the
+                backdrop
+                of the accretion disk and the photon sphere, where gravitational forces are so strong that light orbits
+                the
+                black hole. These phenomena will be interactive, demonstrating how the size and shape of the shadow
+                change with
+                the black hole's properties.</li>
+        </ul>
+
+        <p><b>Interactive Interface Goals:</b>
+        <p>
+        <p>Build an interactive interface allowing users to:</p>
+        <ul>
+            <li><b>Manipulate Black Hole Parameters: </b>Users can adjust the mass, spin, and charge of the black hole to see
+                real-time
+                changes in gravitational lensing, event horizon shadow, and accretion disk behavior.</li>
+        </ul>
+    </section>
+    <section>
+        <h3 class="goal">Aspirational Goals:</h3>
+        <p>If things go well, we also want to achieve the following:</p>
+        <ul>
+            <li><b>Observer Positioning: </b>Through an intuitive interface, users can change their viewing angle and distance
+                from the black hole, offering diverse perspectives on the gravitational effects.</li>
+            <li><b>Integrate Real Data: </b>To integrate real astronomical data that is publicly available into the simulation,
+                allowing for the visualization of black holes within actual galactic environments.</li>
+        </ul>
+    </section>
 </body>
+
 </html>
